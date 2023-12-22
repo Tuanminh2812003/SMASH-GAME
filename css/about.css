@@ -1,0 +1,154 @@
+.img-game{
+    margin-top: 100px;
+}
+.img-game .col-12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.img-game .col-12 .text{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    margin-top: -20px;
+}
+
+.main{
+    position: relative;
+}
+.main .r1{
+    background-image: url(../images/about\ main.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    background-position: center;
+    justify-content: end;
+    align-items: center;
+}
+.main .r1 .text{
+    margin-right: 100px;
+}
+.main .r1 .text .title{
+    font-size: 40px;
+    margin-top: 40px;
+}
+.main .r1 .text .disc{
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.about{
+    margin-top: 80px;
+}
+.about .img{
+    width: 100%;
+    height: 300px;
+    background-image: url(../images/game/littlewood-1.png);
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.about .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+.about .text .title{
+    font-size: 50px;
+    font-weight: 600;
+}
+.about .text .disc{
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.do{
+    margin-top: 80px;
+}
+.do .img{
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/game/littlewood-1.png);
+    background-repeat: no-repeat;
+    background-color: aqua;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+.do .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 50px;
+}
+.do .text .title{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: end;
+}
+.do .text .disc{
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: end;
+}
+
+.pic-disc{
+    margin-top: 80px;
+    display: flex;
+}
+.pic-disc .img{
+    height: 400px;
+    background-image: url(../images/about-disc.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.enquiries{
+    margin-top: 80px;
+    margin-bottom: 160px;
+}
+.enquiries .r1{
+    justify-content: center;
+}
+.enquiries .r2{
+    margin-top: -20px;
+    justify-content: center;
+}
+.enquiries .r2 .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #372C56;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 30px;
+}
+.enquiries .r2 .box .title{
+    font-weight: 500;
+}
+.enquiries .r2 .box .icon{
+    font-size: 80px;
+    font-weight: 300;
+}
+.enquiries .r2 .box .disc{
+    font-weight: 500;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.line div{
+    width: 50%;
+    height: 2px;
+    background-color: white;
+    opacity: 0.8;
+}

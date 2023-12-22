@@ -1,0 +1,401 @@
+/* HEADER */
+header{
+    width: 100%;
+    background-color: var(--color-back);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+header .inner-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .inner-header .find{
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 35px;
+    height: 33px;
+    background-color: var(--color-back);
+    transition: all 1.5s;
+}
+header .inner-header .find button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    transition: all 1.5s;
+}
+header .inner-header .find input{
+    display: none;
+    width: 98%;
+    margin-right: 2px;
+    height: 30px;
+    border: none;
+    transition: all 1.5s;
+    outline: none;
+}
+
+header .inner-header .find:hover{
+    background-color: white;
+    width: 300px;
+    color: var(--color-back);
+}
+header .inner-header .find:hover > input{
+    display: block;
+    opacity: 0;
+}
+header .inner-header .find input:hover{
+    opacity: 1;
+}
+header .inner-header .find input:focus{
+    opacity: 1;
+}
+header .inner-header .find:hover > button{
+    color: var(--color-back);
+}
+header .inner-header .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+header .inner-header .menu ul{
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+header .inner-header .menu ul a{
+    margin-left: 35px;
+    letter-spacing: 0px;
+    transition: all 1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+header .inner-header .menu ul a li{
+    font-weight: 500;
+    position: relative;
+    padding: 0px;
+}
+header .inner-header .menu ul a li:after{
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    top: -5.5px;
+    left: -2px;
+    height: 140%;
+    width: 100%;
+    transform-origin: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    transform: scale3d(0,1,0);
+    transition: all 0.8s;
+    filter: hue-rotate(270deg);
+}
+header .inner-header .menu ul a:hover{
+    letter-spacing: 5px;
+}
+header .inner-header .menu ul a:hover > li::after{
+    transform: scale3d(1,1,1);
+}
+/* END HEADER */
+
+/* MAIN */
+.main{
+    margin-top: 40px;
+    width: 100%;
+}
+.main .row{
+    align-items: center;
+    justify-content: space-between;
+}
+.main .title{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.main .disc{
+    font-size: 15px;
+    font-weight: 400;
+}
+.main .video{
+    background-color: aqua;
+    width: 80%;
+    height: 300px;
+    margin-left: 20%;
+}
+/* END MAIN */
+
+/* SECTION-GAMES */
+.section-games{
+    width: 100%;
+    margin-top: 100px;
+}
+.section-games .img{
+    display: flex;
+    justify-content: center;
+}
+.section-games .title{
+    font-size: 45px;
+    font-weight: 700;
+}
+.section-games .disc{
+    font-weight: 300;
+}
+.section-games .r2{
+    flex-direction: row-reverse;
+}
+.section-games .r2 .c2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.section-games .r2 .c2 .disc{
+    text-align: end;
+}
+.section-games .pic-1{
+    background-image: url("../images/game/littlewood-1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+}
+.section-games .pic-2{
+    background-image: url("../images/game/roguelands-1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+}
+.section-games .pic-3{
+    background-image: url("../images/game/magicite-1.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.section-games .inner-button .col-12{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.section-games .inner-button .button-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    background-color: var(--color-button);
+    border-radius: 40px;
+    position: relative;
+    height: 40px;
+    background-color: var(--color-button-disc);
+    transition: all 0.5s;
+}
+.section-games .inner-button .button-2 i{
+    margin-left: 5px;
+    margin-top: -3px;
+}
+.section-games .inner-button .button-2:hover{
+    color: #17793D;
+    background-color: white;
+}
+/* END SECTION-GAMES */
+
+/* SECTION-NEWS */
+.section-news{
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+.section-news .img{
+    display: flex;
+    justify-content: center;
+}
+.section-news .title{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 50px;
+}
+.section-news .disc{
+    font-weight: 300;
+}
+.section-news .r2{
+    flex-direction: row-reverse;
+}
+.section-news .r2 .c2{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.section-news .r2 .c2 .disc{
+    text-align: end;
+}
+.section-news .pic-1{
+    background-image: url("../images/game/littlewood-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+}
+.section-news .pic-2{
+    background-image: url("../images/game/magicite-1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+}
+.section-news .pic-3{
+    background-image: url("../images/game/news.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.section-news .inner-button .col-12{
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.section-news .inner-button .button-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    background-color: var(--color-button);
+    border-radius: 40px;
+    position: relative;
+    height: 40px;
+    background-color: var(--color-button-disc);
+    transition: all 0.5s;
+}
+.section-news .inner-button .button-2 i{
+    margin-left: 5px;
+    margin-top: -3px;
+}
+.section-news .inner-button .button-2:hover{
+    color: #17793D;
+    background-color: white;
+}
+/* END SECTION-NEWS */
+
+/* SECTION-FIND */
+.section-find{
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: var(--color-back2);
+}
+.section-find .row{
+    align-items: center;
+}
+.section-find .title{
+    font-size: 50px;
+    font-weight: 700;
+    color: #363636;
+    width: 80%;
+}
+.section-find .disc{
+    font-size: 16px;
+    font-weight: 400;
+    color: #363636;
+    margin-top: 40px;
+}
+.section-find .button-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 40px;
+    height: 40px;
+    background-color: var(--color-back);
+    transition: all 0.5s;
+}
+.section-find .button-2 i{
+    margin-left: 5px;
+    margin-top: -3px;
+}
+.section-find .button-2:hover{
+    background-color: var(--color-button-disc);
+}
+.section-find .pic-1{
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+}
+/* END SECTION-FIND */
+
+/* FOOTER */
+footer{
+    display: flex;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+footer .disc{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+footer .title{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+footer .c{
+    display: flex;
+}
+footer .c .c1{
+    display: flex;
+    margin-right: 40px;
+    flex-direction: column;
+}
+footer .c .c1 .tag{
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    margin-top: 20px;
+}
+footer .col-2{
+    display: flex;
+    align-items: end;
+}
+footer .col-2 .icon{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-back);
+    margin-right: 10px;
+}
+/* END FOOTER */
