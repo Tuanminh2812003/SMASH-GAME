@@ -1,0 +1,123 @@
+.cartProduct{
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+.cartProduct .r1{
+    align-items: center;
+    justify-content: space-between;
+}
+.cartProduct .r1 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.cartProduct .r1 a .text{
+    margin-top: 20px;
+    font-weight: 500;
+}
+.cartProduct .r1 i{
+    color: #FDF1DA;
+}
+.cartProduct .r2{
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.cartProduct .r2 .line{
+    height: 2px;
+    width: 100px;
+    background-color: white;
+}
+.cartProduct .r2 .text{
+    margin: 0px 30px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.cartProduct .r3 .pro{
+    display: flex;
+    align-items: end;
+    position: relative;
+    margin-top: 40px;
+}
+.cartProduct .r3 .img{
+    width: 135px;
+    height: 135px;
+    overflow: hidden;
+    border-radius: 15px;
+    position: absolute;
+    z-index: 1;
+}
+.cartProduct .r3 .img img{
+    width: auto;
+    height: 150px;
+    position: absolute;
+    left: -45px;
+}
+.cartProduct .r3 .id{
+    background-color: #97BCCC;
+    width: 20%;
+    height: 30px;
+    position: absolute;
+    border-radius: 30px;
+    top: -15px;
+    left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartProduct .r3 .info{
+    background-color: #594D7C;
+    width: 100%;
+    height: 120px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    font-size: 30px;
+    font-weight: 500;
+}
+.cartProduct .r3 .info .btn{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.cartProduct .r3 .info .price{
+    margin-left: 60px;
+}
+.cartProduct .r3 .info .title{
+    width: 400px;
+    text-wrap: wrap;
+    margin-right: 80px;
+}
+.cartProduct .r3 .info .quantity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cartProduct .r3 .info .quantity button{
+    background-color: var(--color-button-disc);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.cartProduct .r3 .info .quantity button:hover{
+    color: white;
+}
+.cartProduct .r4{
+    justify-content: center;
+}
+.cartProduct .r4 .button{
+    background-color: var(--color-button-disc);
+    font-weight: 800;
+    transition: all 0.5s;
+}
+.cartProduct .r4 .button:hover{
+    background-color: white;
+    color: #357B3D;
+}

@@ -1,0 +1,329 @@
+.game-2-buy-it .main{
+    display: flex;
+    background-color: #352D67;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.game-2-buy-it .main .c1 img{
+    width: 80%;
+    height: auto;
+}
+.game-2-buy-it .main .c2 .title{
+    font-size: 48px;
+}
+.game-2-buy-it .main .c2 .title-disc{
+    font-size: 16px;
+}
+.game-2-buy-it .main .c2 .price{
+    color: var(--color-button-disc);
+    font-size: 64px;
+    font-weight: 900;
+    letter-spacing: 9.6px;
+}
+.game-2-buy-it .main .c2 .text-1{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: -10px;
+}
+.game-2-buy-it .main .c2 .star{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+.game-2-buy-it .main .c2 .star .point{
+    font-size: 24px;
+    font-weight: 900;
+}
+.game-2-buy-it .main .c2 .star .sao{
+    margin-left: 15px;
+    color: var(--color-button-disc);
+}
+.game-2-buy-it .main .c2 .star .rate{
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 900;
+}
+.game-2-buy-it .main .c2 .text-2{
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.game-2-buy-it .main .c2 .text-3{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+}
+.game-2-buy-it .main .c2 .text-3 .share{
+    font-size: 16px;
+    font-weight: 600;
+}
+.game-2-buy-it .main .c2 .text-3 .icon{
+    margin-left: 20px;
+}
+.game-2-buy-it .main .c2 .text-3 .icon i{
+    font-size: 25px;
+    margin-left: 10px;
+    transition: all 0.2s;
+}
+.game-2-buy-it .main .c2 .text-3 .icon i:hover{
+    font-size: 40px;
+}
+
+.game-2-buy-it .main .c2 .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 60px;
+    background-color: var(--color-button);
+    border-radius: 40px;
+    position: relative;
+}
+.game-2-buy-it .main .c2 .button .text-button{
+    position: relative;
+    z-index: 1;
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 40px;
+    transition: all 1s;
+}
+.game-2-buy-it .main .c2 .button .mui-ten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 100%;
+    border-radius: 50%;
+    color: black;
+    background-color: var(--color-button-disc);
+    position: absolute;
+    right: 0;
+    transition: all 0.5s;
+    font-size: 25px;
+}
+.game-2-buy-it .main .c2 .button .mui-ten{
+    font-size: 25px;
+}
+.game-2-buy-it .main .c2 .button:hover > .mui-ten{
+    width: 100%;
+    color: var(--color-button-disc);
+    border-radius: 40px;
+}
+.game-2-buy-it .main .c2 .button:hover > .text-button{
+    margin-right: 0px;
+}
+
+/* slider */
+.slider{
+    margin-top: 40px;
+}
+.slider label{
+    font-weight: 700;
+}
+
+.slider #des:checked ~ .r2-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider #add:checked ~ .r2-2{
+    display: flex;
+    flex-direction: column;
+}
+
+.slider #rev:checked ~ .r2-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.slider #des:checked ~ .r1 > .mot{
+    background-color: #5B588C;
+}
+.slider #add:checked ~ .r1 > .hai{
+    background-color: #5B588C;
+}
+.slider #rev:checked ~ .r1 > .ba{
+    background-color: #5B588C;
+}
+
+.slider .r2-1{
+    display: none;
+    background-color: #5B588C;
+    padding: 60px;
+}
+.slider .r2-2{
+    display: none;
+    background-color: #5B588C;
+    padding: 60px;
+}
+.slider .r2-3{
+    display: none;
+    background-color: #5B588C;
+    padding: 60px;
+}
+
+.slider .r1{
+    justify-content: center;
+}
+.slider .r1 label{
+    padding: 10px 30px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+.slider .r2-3 .col-12{
+    display: flex;
+}
+.slider .r2-3 .col-12 .icon{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EBD8B3;
+    border-radius: 50%;
+    color: black;
+}
+.slider .r2-3 .col-12 .text{
+    width: 100%;
+    margin-left: 30px;
+}
+.slider .r2-3 .col-12 .text form input{
+    width: 100%;
+    border-radius: 20px;
+    height: 35px;
+    outline: solid #EBD8B3 3px;
+    border: none;
+    padding: 0px 20px;
+    background-color: #5B588C;
+    color: white;
+}
+.slider .r2-3 .col-12 .text form input::placeholder{
+    color: white;
+    font-style: italic;
+}
+.slider .r2-3 .col-12 .text .star{
+    display: flex;
+    margin-top: 20px;
+}
+.slider .r2-3 .col-12 .text .star .zero{
+    margin-top: -2.5px;
+    margin-left: 30px;
+}
+/* slider */
+
+/* star */
+.star input{
+    display: none;
+}
+.star .zero{
+    background-image: url(../images/star/star.png);
+    width: 130px;
+    height: 22px;
+    background-repeat: no-repeat;
+    left: 0px;
+    top: 0px;
+    background-size: 130px auto;
+    position: relative;
+}
+.star .zero .one{
+    background-image: url(../images/star/star.png);
+    width: 25px;
+    height: 22px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-size: 130px auto;
+    background-position: -108px -28px;
+    opacity: 0;
+    z-index: 10;
+}
+.star .zero .one:hover{
+    opacity: 1;
+}
+.star .zero #one:checked + label > .one{
+    opacity: 1;
+}
+.star .zero .two{
+    background-image: url(../images/star/star.png);
+    width: 50px;
+    height: 22px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-size: 130px auto;
+    background-position: -81px -28px;
+    opacity: 0;
+    z-index: 9;
+}
+.star .zero .two:hover{
+    opacity: 1;
+}
+.star .zero #two:checked + label > .two{
+    opacity: 1;
+}
+.star .zero .three{
+    background-image: url(../images/star/star.png);
+    width: 75px;
+    height: 22px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-size: 130px auto;
+    background-position: -53.5px -28px;
+    opacity: 0;
+    z-index: 8;
+}
+.star .zero .three:hover{
+    opacity: 1;
+}
+.star .zero #three:checked + label > .three{
+    opacity: 1;
+}
+.star .zero .four{
+    background-image: url(../images/star/star.png);
+    width: 100px;
+    height: 22px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-size: 130px auto;
+    background-position: -26.5px -28px;
+    opacity: 0;
+    z-index: 7;
+}
+.star .zero .four:hover{
+    opacity: 1;
+}
+.star .zero #four:checked + label > .four{
+    opacity: 1;
+}
+.star .zero .five{
+    background-image: url(../images/star/star.png);
+    width: 130px;
+    height: 22px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-size: 130px auto;
+    background-position: 0px -28px;
+    opacity: 0;
+    z-index: 6;
+}
+.star .zero .five:hover{
+    opacity: 1;
+}
+.star .zero #five:checked + label > .five{
+    opacity: 1;
+}
+/* star */

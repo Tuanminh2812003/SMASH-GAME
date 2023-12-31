@@ -25,7 +25,7 @@ prev.onclick = function(){
     reloadSlider();
 }
 
-let refreshSlider = setInterval(()=>{next.click()}, 5000);
+let refreshSlider = setInterval(()=>{next.click()}, 2500);
 
 function reloadSlider(){
     let checkLeft = items[active].offsetLeft;
@@ -35,7 +35,7 @@ function reloadSlider(){
     lastActiveDot.classList.remove('active');
     dots[active].classList.add('active');
     clearInterval(refreshSlider);
-    refreshSlider = setInterval(()=>{next.click()}, 5000);
+    refreshSlider = setInterval(()=>{next.click()}, 2500);
 }
 dots.forEach((li, key) => {
     li.addEventListener('click', function(){

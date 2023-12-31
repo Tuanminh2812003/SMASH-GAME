@@ -9,6 +9,7 @@
 .rcm .r1 .title{
     font-size: 40px;
     font-weight: 500;
+    text-align: center;
 }
 .rcm .r2{
     margin-top: 30px;
@@ -17,7 +18,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 .rcm .r2 .c .img{
     width: 100%;
@@ -41,7 +41,9 @@
     font-size: 20px;
     font-weight: 600;
 }
-
+.rcm .r2 .c .text .name{
+    text-align: center;
+}
 /* GAME-1 */
 
 .game-1 .img-game{
@@ -680,7 +682,7 @@
 /* GAME-4 */
 .game-4 .img-game{
     margin-top: 0px;
-    background-image: url(../images/game/game-3/intro\ gif.gif);
+    background-image: url(../images/game/game-4/intro\ gif.gif);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -699,7 +701,7 @@
     margin-top: -200px;
 }
 .game-4 .main .r1{
-    background-image: url(../images/game/game-3/Group\ 140.png);
+    background-image: url(../images/game/game-4/Group\ 141.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 500px;
@@ -782,7 +784,7 @@
     margin-right: 0px;
 }
 .game-4 .section-games .pic-1{
-    background-image: url("../images/game/game-3/k2\ screenshots\ 1.jpg");
+    background-image: url("../images/game/game-4/kd2\ screenshot\ 1.jfif");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -791,7 +793,16 @@
     border-radius: 15px;
 }
 .game-4 .section-games .pic-2{
-    background-image: url("../images/game/game-3/k2\ screenshot\ 5.jpg");
+    background-image: url("../images/game/game-4/kd2\ screenshot\ 4.jfif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+}
+.game-4 .section-games .pic-3{
+    background-image: url("../images/game/game-4/kd2\ screenshot\ 6.jfif");
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -901,6 +912,677 @@
 }
 /* END GAME-4 */
 
+/* GAME-5 */
+.game-5 .img-game{
+    margin-top: 0px;
+    background-image: url(../images/game/game-5/gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.game-5 .img-game .img{
+    margin-top: 80px;
+}
+.game-5 .img-game .col-12 .text{
+    margin-top: -50px;
+}
+
+
+
+.game-5 .main{
+    margin-top: -200px;
+}
+.game-5 .main .r1{
+    background-image: url(../images/game/game-5/Group\ 160.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    background-position: center;
+}
+.game-5 .main .r1 .text{
+    padding-left: 60px;
+    text-align: start;
+    margin-top: 30px;
+}
+.game-5 .main .r1 .text .title{
+    font-size: 40px;
+}
+.game-5 .main .r1 .text .disc{
+    font-size: 15px;
+    line-height: 30px;
+}
+.game-5 .main .r1 .text .disc-2{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.game-5 .main .r2{
+    width: 40%;
+    display: flex;
+    position: absolute;
+    left: 33%;
+    bottom: -30px;
+    align-items: center;
+    justify-content: space-between ;
+}
+.game-5 .main .r2 .or{
+    font-size: 30px;
+    font-weight: 600;
+}
+.game-5 .main .r2 .button{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 60px;
+    background-color: var(--color-button);
+    border-radius: 40px;
+    position: relative;
+    border: var(--color-back) solid 5px;
+}
+.game-5 .main .r2 .button .text-button{
+    position: relative;
+    z-index: 1;
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 40px;
+    transition: all 1s;
+}
+.game-5 .main .r2 .button .mui-ten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 100%;
+    border-radius: 50%;
+    color: black;
+    background-color: var(--color-button-disc);
+    position: absolute;
+    right: 0;
+    transition: all 0.5s;
+    font-size: 25px;
+}
+.game-5 .main .r2 .bt2 .mui-ten{
+    font-size: 30px;
+}
+.game-5 .main .r2 .button:hover > .mui-ten{
+    width: 100%;
+    color: var(--color-button-disc);
+    border-radius: 40px;
+}
+.game-5 .main .r2 .button:hover > .text-button{
+    margin-right: 0px;
+}
+.game-5 .section-games .pic-1{
+    background-image: url("../images/game/game-5/rl\ screenshot\ 6.jfif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+}
+.game-5 .section-games .pic-2{
+    background-image: url("../images/game/game-5/rl\ screenshot\ 4.jfif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.game-5 .trailer{
+    margin-top: 80px;
+}
+.game-5 .trailer .r1 .col-12{
+    display: flex;
+    justify-content: center
+}
+
+.game-5 .screen{
+    margin-top: 180px;
+}
+.game-5 .screen .col-12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.game-5 .screen .col-12 .text{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    margin-top: -20px;
+}
+.game-5 .screen .r2{
+    margin-top: 50px;
+}
+
+.game-5 .screen .r2 .cot-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.game-5 .screen .r2 .cot-1 .img-1{
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.game-5 .screen .r2 .cot-1 .img-1 img{
+    height: 450px;
+    width: auto;
+    position: absolute;
+    left: -100px;
+    transition: all 1s;
+}
+.game-5 .screen .r2 .cot-1 .img-2{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 30px;
+    position: relative;
+}
+.game-5 .screen .r2 .cot-1 .img-2 img{
+    height: 250px;
+    width: auto;
+    position: absolute;
+    transition: all 1s;
+}
+.game-5 .screen .r2 .cot-2 .img-2{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+}
+.game-5 .screen .r2 .cot-2 .img-2 img{
+    height: 250px;
+    width: auto;
+    position: absolute;
+    transition: all 1s;
+}
+.game-5 .screen .r2 .cot-2 .img-1{
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    transition: all 1s;
+}
+.game-5 .screen .r2 .cot-2 .img-1 img{
+    height: 450px;
+    width: auto;
+    position: absolute;
+    left: -100px;
+    transition: all 1s;
+}
+.game-5 .screen .r2 .img-1 img:hover{
+    height: 500px;
+    width: auto;
+    left: -100px;
+}
+.game-5 .screen .r2 .img-2 img:hover{
+    height: 300px;
+    width: auto;
+}
+/* END GAME-5 */
+
+/* GAME-6 */
+.game-6 .img-game{
+    margin-top: 0px;
+    background-image: url(../images/game/game-6/mc\ gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.game-6 .img-game .img{
+    margin-top: 80px;
+}
+.game-6 .img-game .col-12 .text{
+    margin-top: -50px;
+}
+
+
+
+.game-6 .main{
+    margin-top: -200px;
+}
+.game-6 .main .r1{
+    background-image: url(../images/game/game-6/Group\ 161.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    background-position: center;
+}
+.game-6 .main .r1 .text{
+    padding-left: 60px;
+    text-align: start;
+    margin-top: 30px;
+}
+.game-6 .main .r1 .text .title{
+    font-size: 40px;
+}
+.game-6 .main .r1 .text .disc{
+    font-size: 15px;
+    line-height: 30px;
+}
+.game-6 .main .r1 .text .disc-2{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.game-6 .main .r2{
+    width: 40%;
+    display: flex;
+    position: absolute;
+    left: 33%;
+    bottom: -30px;
+    align-items: center;
+    justify-content: space-between ;
+}
+.game-6 .main .r2 .or{
+    font-size: 30px;
+    font-weight: 600;
+}
+.game-6 .main .r2 .button{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 60px;
+    background-color: var(--color-button);
+    border-radius: 40px;
+    position: relative;
+    border: var(--color-back) solid 5px;
+}
+.game-6 .main .r2 .button .text-button{
+    position: relative;
+    z-index: 1;
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 40px;
+    transition: all 1s;
+}
+.game-6 .main .r2 .button .mui-ten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 100%;
+    border-radius: 50%;
+    color: black;
+    background-color: var(--color-button-disc);
+    position: absolute;
+    right: 0;
+    transition: all 0.5s;
+    font-size: 25px;
+}
+.game-6 .main .r2 .bt2 .mui-ten{
+    font-size: 30px;
+}
+.game-6 .main .r2 .button:hover > .mui-ten{
+    width: 100%;
+    color: var(--color-button-disc);
+    border-radius: 40px;
+}
+.game-6 .main .r2 .button:hover > .text-button{
+    margin-right: 0px;
+}
+.game-6 .section-games .pic-1{
+    background-image: url("../images/game/game-6/mc\ screenshot\ 3.jfif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+}
+.game-6 .section-games .pic-2{
+    background-image: url("../images/game/game-6/mc\ screenshot\ 4.jfif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.game-6 .trailer{
+    margin-top: 80px;
+}
+.game-6 .trailer .r1 .col-12{
+    display: flex;
+    justify-content: center
+}
+
+.game-6 .screen{
+    margin-top: 180px;
+}
+.game-6 .screen .col-12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.game-6 .screen .col-12 .text{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    margin-top: -20px;
+}
+.game-6 .screen .r2{
+    margin-top: 50px;
+}
+
+.game-6 .screen .r2 .cot-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.game-6 .screen .r2 .cot-1 .img-1{
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.game-6 .screen .r2 .cot-1 .img-1 img{
+    height: 450px;
+    width: auto;
+    position: absolute;
+    left: -100px;
+    transition: all 1s;
+}
+.game-6 .screen .r2 .cot-1 .img-2{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 30px;
+    position: relative;
+}
+.game-6 .screen .r2 .cot-1 .img-2 img{
+    height: 250px;
+    width: auto;
+    position: absolute;
+    transition: all 1s;
+}
+.game-6 .screen .r2 .cot-2 .img-2{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+}
+.game-6 .screen .r2 .cot-2 .img-2 img{
+    height: 250px;
+    width: auto;
+    position: absolute;
+    transition: all 1s;
+}
+.game-6 .screen .r2 .cot-2 .img-1{
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    transition: all 1s;
+}
+.game-6 .screen .r2 .cot-2 .img-1 img{
+    height: 450px;
+    width: auto;
+    position: absolute;
+    left: -100px;
+    transition: all 1s;
+}
+.game-6 .screen .r2 .img-1 img:hover{
+    height: 500px;
+    width: auto;
+    left: -100px;
+}
+.game-6 .screen .r2 .img-2 img:hover{
+    height: 300px;
+    width: auto;
+}
+/* END GAME-6 */
+
+/* GAME-7 */
+.game-7 .img-game{
+    margin-top: 0px;
+    background-image: url(../images/game/game-7/intro\ gif.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+.game-7 .img-game .img{
+    margin-top: 80px;
+}
+.game-7 .img-game .col-12 .text{
+    margin-top: -50px;
+}
+
+
+
+.game-7 .main{
+    margin-top: -200px;
+}
+.game-7 .main .r1{
+    background-image: url(../images/game/game-7/Group\ 162.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    background-position: center;
+}
+.game-7 .main .r1 .text{
+    padding-left: 60px;
+    text-align: start;
+    margin-top: 30px;
+}
+.game-7 .main .r1 .text .title{
+    font-size: 40px;
+}
+.game-7 .main .r1 .text .disc{
+    font-size: 15px;
+    line-height: 30px;
+}
+.game-7 .main .r1 .text .disc-2{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.game-7 .main .r2{
+    width: 40%;
+    display: flex;
+    position: absolute;
+    left: 33%;
+    bottom: -30px;
+    align-items: center;
+    justify-content: space-between ;
+}
+.game-7 .main .r2 .or{
+    font-size: 30px;
+    font-weight: 600;
+}
+.game-7 .main .r2 .button{
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 60px;
+    background-color: var(--color-button);
+    border-radius: 40px;
+    position: relative;
+    border: var(--color-back) solid 5px;
+}
+.game-7 .main .r2 .button .text-button{
+    position: relative;
+    z-index: 1;
+    font-weight: 800;
+    font-size: 20px;
+    margin-right: 40px;
+    transition: all 1s;
+}
+.game-7 .main .r2 .button .mui-ten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 100%;
+    border-radius: 50%;
+    color: black;
+    background-color: var(--color-button-disc);
+    position: absolute;
+    right: 0;
+    transition: all 0.5s;
+    font-size: 25px;
+}
+.game-7 .main .r2 .bt2 .mui-ten{
+    font-size: 30px;
+}
+.game-7 .main .r2 .button:hover > .mui-ten{
+    width: 100%;
+    color: var(--color-button-disc);
+    border-radius: 40px;
+}
+.game-7 .main .r2 .button:hover > .text-button{
+    margin-right: 0px;
+}
+.game-7 .section-games .pic-1{
+    background-image: url("../images/game/game-7/ws\ screenshot\ 1.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+}
+.game-7 .section-games .pic-2{
+    background-image: url("../images/game/game-7/ws\ screenshot\ 5.jfif");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 95%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.game-7 .trailer{
+    margin-top: 80px;
+}
+.game-7 .trailer .r1 .col-12{
+    display: flex;
+    justify-content: center
+}
+
+.game-7 .screen{
+    margin-top: 180px;
+}
+.game-7 .screen .col-12{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.game-7 .screen .col-12 .text{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 10px;
+    margin-top: -20px;
+}
+.game-7 .screen .r2{
+    margin-top: 50px;
+}
+.game-7 .screen .r2 .cot-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.game-7 .screen .r2 .cot-1 .img-1{
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+.game-7 .screen .r2 .cot-1 .img-1 img{
+    height: 450px;
+    width: auto;
+    position: absolute;
+    left: -100px;
+    transition: all 1s;
+}
+.game-7 .screen .r2 .cot-1 .img-2{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 30px;
+    position: relative;
+}
+.game-7 .screen .r2 .cot-1 .img-2 img{
+    height: 250px;
+    width: auto;
+    position: absolute;
+    transition: all 1s;
+}
+.game-7 .screen .r2 .cot-2 .img-2{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+}
+.game-7 .screen .r2 .cot-2 .img-2 img{
+    height: 250px;
+    width: auto;
+    position: absolute;
+    transition: all 1s;
+}
+.game-7 .screen .r2 .cot-2 .img-1{
+    width: 100%;
+    height: 450px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    transition: all 1s;
+}
+.game-7 .screen .r2 .cot-2 .img-1 img{
+    height: 450px;
+    width: auto;
+    position: absolute;
+    left: -100px;
+    transition: all 1s;
+}
+.game-7 .screen .r2 .img-1 img:hover{
+    height: 500px;
+    width: auto;
+    left: -100px;
+}
+.game-7 .screen .r2 .img-2 img:hover{
+    height: 300px;
+    width: auto;
+}
+/* END GAME-7 */
+
 /* GAME-8 */
 .game-8 .img-game{
     margin-top: 0px;
@@ -970,6 +1652,14 @@
 }
 .game-8 .main .r2 .button-2 .text-button .icon{
     margin-left: 10px;
+}
+
+.game-8 .screen .r{
+    margin-bottom: 80px;
+}
+.game-8 .screen .r .c1{
+    display: flex;
+    justify-content: center;
 }
 .game-8 .screen .r2 .img{
     width: 100%;

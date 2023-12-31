@@ -1,0 +1,282 @@
+.hide{
+    display: none;
+}
+
+
+.mymodal{
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 9999;
+}
+.mymodal .modal_inner{
+    display: flex;
+    width: 590px;
+    padding:  50px 80px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #B4E37A;
+    border-radius: 30px;
+    position: relative;
+    top: 1%;
+    margin: auto;
+    animation: modalShow 1s linear;
+}
+.mymodal .modal_inner .modal_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.mymodal .modal_inner .modal_body .sign{
+    color: var(--color-back);
+    font-size: 26px;
+    text-align: center;
+    margin-top: 30px;
+}
+.mymodal .modal_inner .modal_body .have{
+    color: #98A781;
+    text-align: center;
+}
+.mymodal .modal_inner .modal_body .have a{
+    color: #1D974C;
+}
+.mymodal .modal_inner .modal_body form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+}
+.mymodal .modal_inner .modal_body form input{
+    margin-top: 20px;
+    border: none;
+    height: 40px;
+    border-radius: 100px;
+    padding: 5px 20px;
+    background-color: white;
+}
+.mymodal .modal_inner .modal_body form .check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mymodal .modal_inner .modal_body form .check label{
+    margin-top: 30px;
+    margin-left: 10px;
+    color: var(--color-back);
+}
+.mymodal .modal_inner .modal_body form a{
+    width: 100%;
+    text-align: center;
+    color: var(--color-back);
+    margin-top: 10px;
+}
+.mymodal .modal_inner .modal_body a:hover{
+    color: white;
+}
+.mymodal .modal_inner .modal_body form button{
+    width: 100%;
+    background-color: var(--color-back);
+    border-radius: 100px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    transition: all 0.5s;
+    display: flex;
+    width: 100%;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+}
+.mymodal .modal_inner .modal_body form button a{
+    color: white;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+.mymodal .modal_inner .modal_body form button:hover{
+    background-color: white;
+}
+.mymodal .modal_inner .modal_body form button:hover > a{
+    color: #17793D;
+}
+.mymodal .modal_inner .modal_body .or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mymodal .modal_inner .modal_body .or .line{
+    width: 150px;
+    background-color: white;
+    height: 2px;
+}
+.mymodal .modal_inner .modal_body .or .text{
+    margin: 20px 10px;
+    font-size: 14px;
+}
+.mymodal .modal_inner .modal_body .bt1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: var(--color-back) solid 2px;
+    border-radius: 30px;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    color: var(--color-back);
+}
+.mymodal .modal_inner .modal_body .bt1 .icon{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.mymodal .modal_inner .modal_body .bt1:hover{
+    color: white;
+    background-color: var(--color-back);
+}
+
+.mymodal2{
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 9999;
+}
+.mymodal2 .modal_inner{
+    display: flex;
+    width: 590px;
+    padding:  50px 80px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #B4E37A;
+    border-radius: 30px;
+    position: relative;
+    top: 1%;
+    margin: auto;
+    animation: modalShow 1s linear;
+    height: 700px;
+    overflow:auto;
+
+}
+.mymodal2 .modal_inner .modal_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.mymodal2 .modal_inner .modal_body .sign{
+    color: var(--color-back);
+    font-size: 26px;
+    text-align: center;
+    margin-top: 30px;
+}
+.mymodal2 .modal_inner .modal_body .have{
+    color: #98A781;
+    text-align: center;
+}
+.mymodal2 .modal_inner .modal_body .have a{
+    color: #1D974C;
+}
+.mymodal2 .modal_inner .modal_body form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 100%;
+}
+.mymodal2 .modal_inner .modal_body form input{
+    margin-top: 20px;
+    border: none;
+    height: 40px;
+    border-radius: 100px;
+    padding: 5px 20px;
+    background-color: white;
+}
+.mymodal2 .modal_inner .modal_body form .check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mymodal2 .modal_inner .modal_body form .check label{
+    margin-top: 30px;
+    margin-left: 10px;
+    color: var(--color-back);
+}
+.mymodal2 .modal_inner .modal_body form a{
+    width: 100%;
+    text-align: center;
+    color: var(--color-back);
+    margin-top: 10px;
+}
+.mymodal2 .modal_inner .modal_body a:hover{
+    color: white;
+}
+.mymodal2 .modal_inner .modal_body form button{
+    width: 100%;
+    background-color: var(--color-back);
+    color: white;
+    border-radius: 100px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    transition: all 0.5s;
+}
+.mymodal2 .modal_inner .modal_body form button:hover{
+    background-color: white;
+    color: #17793D;
+}
+.mymodal2 .modal_inner .modal_body .or{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mymodal2 .modal_inner .modal_body .or .line{
+    width: 150px;
+    background-color: white;
+    height: 2px;
+}
+.mymodal2 .modal_inner .modal_body .or .text{
+    margin: 20px 10px;
+    font-size: 14px;
+}
+.mymodal2 .modal_inner .modal_body .bt1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: var(--color-back) solid 2px;
+    border-radius: 30px;
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+    color: var(--color-back);
+}
+.mymodal2 .modal_inner .modal_body .bt1 .icon{
+    margin-right: 20px;
+    font-size: 20px;
+}
+.mymodal2 .modal_inner .modal_body .bt1:hover{
+    color: white;
+    background-color: var(--color-back);
+}
+
+@keyframes modalShow{
+    from{
+        top: -200px;
+        opacity: 0;
+    }
+    to{
+        top: 0;
+        opacity: 1;
+    }
+}
+
+
+
