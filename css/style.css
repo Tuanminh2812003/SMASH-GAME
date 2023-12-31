@@ -1,4 +1,10 @@
 
+body{
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .cart{
     position: fixed;
     z-index: 1000;
