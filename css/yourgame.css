@@ -1,0 +1,39 @@
+.user{
+    background-color: transparent;
+    margin-top: 80px;
+}
+.user .con1 .col-12{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.user .con1 .col-12 .text{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: -30px;
+}
+.user .con3 .r2 .c{
+    margin-top: 60px;
+}
+.user .con3 .r2 .c .box .name{
+    color: white;
+    font-weight: 700;
+}
+.user .con3 .r2 .c .box .disc{
+    text-align: center;
+}
+.user .con3 .r2 .c .box .button{
+    margin-top: 20px;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+}
+.line div{
+    height: 1px;
+    width: 50%;
+    background-color: white;
+}

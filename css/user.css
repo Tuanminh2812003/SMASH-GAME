@@ -1,0 +1,133 @@
+.user{
+    display: flex;
+    background-color: #FDF1DA;
+    flex-direction: column;
+}
+.user .con1 .r1 .col-12{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.user .con1 .r1 .button{
+    background-color: var(--color-button-disc);
+    transition: all 0.5s;
+}
+.user .con1 .r1 .button:hover{
+    background-color: white;
+    color: #1D974C;
+    border: solid 1px #1D974C;
+}
+.user .con1 .r2{
+    font-size: 25px;
+    color: #1D974C;
+    font-weight: 600;
+}
+.user .con2 .inner-user{
+    display: flex;
+    background-color: #F3E7E5;
+    border-radius: 15px;
+    filter: drop-shadow(5px 5px 4px #C1B7A6);
+    padding: 30px;
+}
+.user .con2 .inner-user .row{
+    width: 100%;
+}
+.user .con2 .inner-user .c1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.user .con2 .inner-user .c1 .ava{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user .con2 .inner-user .c1 .ava img{
+    width: auto;
+    height: 150px;
+    margin-left: -100px;
+}
+.user .con2 .inner-user .c1 .name{
+    font-size: 35px;
+    font-weight: 600;
+    color: #1D974C;
+    margin-top: 20px;
+}
+.user .con2 .inner-user .c1 .game{
+    color: black;
+    font-weight: 500;
+}
+.user .con2 .inner-user .c2{
+    color: black;
+}
+.user .con2 .inner-user .c2 .tit{
+    font-weight: 300;
+    margin-top: 10px;
+}
+.user .con2 .inner-user .c2 .info{
+    font-size: 22px;
+    font-weight: 500;
+}
+.user .con2 .inner-user .c2 .info2{
+    display: flex;
+}
+.user .con2 .inner-user .c2 .info2 a{
+    color: #003D84;
+    margin-left: 50px;
+    text-decoration: dotted;
+} 
+.user .con2 .inner-user .c3{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+.user .con2 .inner-user .c3 .button{
+    background-color: var(--color-button-disc);
+    cursor: pointer;
+    transition: all 0.5s;
+    color: black;
+}
+.user .con2 .inner-user .c3 .button:hover{
+    background-color: white;
+    color: #1D974C;
+    border: solid 1px #1D974C;
+}
+.user .con2 .inner-user .c3 .button .icon{
+    margin-left: 15px;
+}
+.user .con3{
+    margin-top: 80px;
+}
+.user .con3 .r1 .title{
+    font-size: 30px;
+    color: #1D974C;
+    font-weight: 600;
+}
+.user .con3 .r2{
+    margin-top: 60px;
+}
+.user .con3 .r2 .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.user .con3 .r2 .box .img{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.user .con3 .r2 .box .img img{
+    margin-left: -30px;
+
+}
+.user .con3 .r2 .box .name{
+    font-size: 30px;
+    color: black;
+    margin-top: 20px;
+    font-weight: 500;
+}

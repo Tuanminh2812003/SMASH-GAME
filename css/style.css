@@ -4,6 +4,53 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.background .b1{
+    background-image: url(../images/index/kindergarten.gif);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    opacity: 1;
+    display: none;
+}
+.background .b2{
+    background-image: url(../images/index/littlewood.gif);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    opacity: 0.4;
+    display: none;
+}
+.background .b3{
+    background-image: url(../images/index/roguelands.gif);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    opacity: 0.4;
+    display: none;
+}
+.background .b4{
+    background-image: url(../images/index/wraithslayer.gif);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    opacity: 0.4;
+    display: none;
+}
+.background .active{
+    display: flex;
+}
 
 .cart{
     position: fixed;
@@ -139,7 +186,7 @@ header .inner-header .menu ul a:hover > li::after{
 
 /* MAIN */
 .main{
-    margin-top: 40px;
+    margin-top: 120px;
     width: 100%;
 }
 .main .row{
@@ -147,18 +194,23 @@ header .inner-header .menu ul a:hover > li::after{
     justify-content: space-between;
 }
 .main .title{
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 700;
-    line-height: 60px;
+    line-height: 50px;
 }
 .main .disc{
     font-size: 15px;
     font-weight: 400;
+    margin-top: 20px;
 }
 .main .video{
     background-color: aqua;
+    background-image: url("../images/Sean_Young_Avatar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -80px;
     width: 80%;
-    height: 300px;
+    height: 350px;
     margin-left: 20%;
 }
 /* END MAIN */
@@ -166,7 +218,7 @@ header .inner-header .menu ul a:hover > li::after{
 /* SECTION-GAMES */
 .section-games{
     width: 100%;
-    margin-top: 100px;
+    margin-top: 450px;
 }
 .section-games .img{
     display: flex;
@@ -375,11 +427,6 @@ header .inner-header .menu ul a:hover > li::after{
 }
 .section-find .button-2:hover{
     background-color: var(--color-button-disc);
-}
-.section-find .pic-1{
-    width: 100%;
-    height: 300px;
-    background-color: aqua;
 }
 /* END SECTION-FIND */
 

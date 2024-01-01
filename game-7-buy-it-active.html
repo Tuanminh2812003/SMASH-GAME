@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo vuông.png" type="image/x-icon">
+    <title>LittleWood</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/games.css">
+    <link rel="stylesheet" href="css/game-1.css">
+    <link rel="stylesheet" href="css/mymodal.css">
+</head>
+<style>
+.main .row{
+    align-items: start;
+    margin-bottom: 120px;
+}
+.main .inner-c1{
+    background-color: #594D7C;
+    display: flex;
+    padding: 50px 80px;
+    border-radius: 40px;
+    position: relative;
+    flex-direction: column;
+}
+.main .inner-c1 .title{
+    position: absolute;
+    background-color: var(--color-button-disc);
+    display: flex;
+    padding: 10px 30px;
+    border-radius: 100px;
+    top: -30px;
+    left: 0px;
+}
+.main .inner-c1 img{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+.main .inner-c1 table{
+    width: 100%;
+    margin-top: 50px;
+}
+.main .inner-c1 table th{
+    padding-bottom: 10px;
+    border-bottom: 2px white solid;
+    font-weight: 600;
+}
+.main .inner-c1 table td{
+    padding-top: 10px;
+    font-weight: 600;
+}
+.main .inner-c1 .pay{
+    margin-top: 50px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.main .inner-c1 .acc{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+.main .inner-c1 .check{
+    margin-top: 50px;
+    display: flex;
+    align-items: start;
+}
+.main .inner-c1 .check label{
+    margin-top: -5px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+.main .c2{
+    justify-content: start;
+    align-items: start;
+}
+.main .c2 .box-1{
+    background-color: #594D7C;
+    width: 100%;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+}
+.main .c2 .box-1 .title{
+    font-size: 15px;
+    background-color: var(--color-button-disc);
+    border-radius: 100px;
+    width: 40%;
+    position: absolute;
+    top: -25px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main .c2 .box-1 .disc{
+    width: 100%;
+    text-align: end;
+    margin-top: 0px;
+}
+.main .c2 .box-1 .price{
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.main .c2 .box-1 .button{
+    background-color: var(--color-button-disc);
+    margin-top: 0px;
+}
+.main .c2 .box-1 .button:hover{
+    background-color: white;
+    color: #357B3D;
+    border: 2px solid #357B3D;
+}
+.main .c2 .box-2{
+    background-color: #594D7C;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-top: 50px;
+    position: relative;
+}
+.main .c2 .box-2 .title{
+    position: absolute;
+    width: 100%;
+    background-color: #EBD8B3;
+    display: flex;
+    font-size: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    top: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+.r2{
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.r2 .button{
+    background-color: var(--color-button-disc);
+
+}
+.r2 .button:hover{
+    background-color: white;
+    color: #357B3D;
+    border: 2px solid #357B3D;
+}
+</style>
+<body>
+    <div class="mymodal hide">
+        <div class="modal_inner">
+            <div class="modal_body">
+                <div class="logo">
+                    <img src="images/pop up/logo toois mauf@4x 2 1.png" alt="">
+                </div>
+                <div class="sign">Sign in your account.</div>
+                <div class="have">Haven’t you had an account yet? <a href="#" class="open_modal2">Sign up</a></div>
+                <form action="">
+                    <input type="email" style="width: 100%;" placeholder="Email">
+                    <input type="password" style="width: 100%;" placeholder="Password">
+                    <div class="check">
+                        <input type="checkbox" id="check">
+                        <label for="check">Show password</label>
+                    </div>
+                    <a href="#" class="">Forgot password</a>
+                    <button><a href="user.html">LOG IN</a></button>
+                </form>
+                <div class="or">
+                    <div class="line"></div>
+                    <div class="text">Hoặc</div>
+                    <div class="line"></div>
+                </div>
+                <a href="" class="bt1">
+                    <div class="icon">
+                        <i class="fa-brands fa-google"></i>
+                    </div>
+                    <div class="text">LOG IN GOOGLE</div>
+                </a>
+                <a href="" class="bt1">
+                    <div class="icon">
+                        <i class="fa-brands fa-apple"></i>
+                    </div>
+                    <div class="text">LOG IN APPLE</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="mymodal2 hide">
+        <div class="modal_inner">
+            <div class="modal_body">
+                <div class="logo">
+                    <img src="images/pop up/logo toois mauf@4x 2 1.png" alt="">
+                </div>
+                <div class="sign">Create your account</div>
+                <div class="have">Already have an accoount <a href="#" class="">Sign in</a></div>
+                <form action="">
+                    <input type="text" style="width: 100%;" placeholder="Name and last name">
+                    <input type="email" style="width: 100%;" placeholder="Email">
+                    <input type="password" style="width: 100%;" placeholder="Password">
+                    <input type="password" style="width: 100%;" placeholder="Enter the password">
+                    <div class="check">
+                        <input type="checkbox" id="check_2">
+                        <label for="check_2">Show password</label>
+                    </div>
+                    <div class="check">
+                        <input type="checkbox" id="check_3">
+                        <label for="check_3">Show password</label>
+                    </div>
+                    <button>SIGN IN</button>
+                </form>
+                <div class="or">
+                    <div class="line"></div>
+                    <div class="text">Hoặc</div>
+                    <div class="line"></div>
+                </div>
+                <a href="" class="bt1">
+                    <div class="icon">
+                        <i class="fa-brands fa-google"></i>
+                    </div>
+                    <div class="text">LOG IN GOOGLE</div>
+                </a>
+                <a href="" class="bt1">
+                    <div class="icon">
+                        <i class="fa-brands fa-apple"></i>
+                    </div>
+                    <div class="text">LOG IN APPLE</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <div class="col-12">
+                <div class="inner-header">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.png" alt="Logo Smash Game"></a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <a href="games.html" style="margin-left: 0px;">
+                                <li>GAMES</li>
+                            </a>
+                            <a href="shop.html">
+                                <li>SHOP</li>
+                            </a>
+                            <a href="news.html">
+                                <li>NEWS</li>
+                            </a>
+                            <a href="about.html">
+                                <li>ABOUT</li>
+                            </a>
+                            <a href="#" class="open_modal">
+                                <li>LOGIN</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <form action="">
+                        <div class="find">
+                            <input type="text">
+                            <button><i class="fa-solid fa-magnifying-glass fa-flip-horizontal"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+
+    <div class="game-7">
+        <div class="img-game">
+            <div class="container">
+                <div class="row r1">
+                    <div class="col-12">
+                        <div class="img-2" style="margin-top: 50px;">
+                            <img src="images/REVIEW.png" alt="">
+                        </div>
+                        <div class="text">REVIEW</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- MAIN -->
+        <div class="main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8">
+                        <div class="inner-c1">
+                            <div class="title">Billing information</div>
+                            <img src="images/bill/Group 216.png" alt="">
+                            <table>
+                                <tr>
+                                    <th>Subtotal:</th>
+                                    <th style="text-align: end;">$14.99</th>
+                                </tr>
+                                <tr>
+                                    <td>Total:</td>
+                                    <td style="text-align: end;">$14.99</td>
+                                </tr>
+                            </table>
+                            <div class="pay">Payment method</div>
+                            <div class="acc">Account: Ánh nè</div>
+                            <div class="check">
+                                <input type="checkbox" id="agree">
+                                <label for="agree">I agree to the terms of the Smash GamesGames Subscriber Agreement (last updated 26 Apr, 2023.) All transactions are authorized through the Smart2Pay website. Confirmation will be emailed to your address at gmail.com Click the button below to open a new web browser to initiate the transaction.</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-4 c2">
+                        <div class="box-1">
+                            <div class="title">
+                                YOUR ACCOUNT
+                            </div>
+                            <div class="disc">Your current balance</div>
+                            <div class="price">$25.99</div>
+                            <a href="games.html" class="button">Buy a game!</a>
+                            <div class="or">or</div>
+                            <a href="shop.html" class="button">Visit our store</a>
+                        </div>
+                        <div class="box-2">
+                            <div class="title">
+                                PURCHASING ON SITE
+                            </div>
+                            <div class="disc">
+                                Once you've completed this transaction, your payment method will be debited. You'll receive an email message confirming receipt of your purchase.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- END MAIN -->
+        <div class="container">
+            <div class="row r2">
+                <a href="#" class="button open_modal3">Continue</a>
+            </div>
+        </div>
+    </div>
+    <div class="line">
+        <div></div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                </div>
+                <div class="col-6 c">
+                    <div class="c1" style="width: 100%;">
+                        <div class="title">
+                            About us
+                        </div>
+                        <a href="about.html" class="tag">
+                            Zeux
+                        </a>
+                        <a href="about.html" class="tag">
+                            Portfolio
+                        </a>
+                        <a href="about.html" class="tag">
+                            Careers
+                        </a>
+                        <a href="about.html" class="tag">
+                            Contact us
+                        </a>
+                    </div>
+                    <div class="c1">
+                        <div class="title">
+                            Contact
+                        </div>
+                        <a href="about.html" class="tag">
+                            +908 89097 890
+                        </a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <a href="" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+    <div class="mymodal3 hide">
+        <div class="modal_inner">
+            <div class="modal_header">
+                <div class="text">
+                    <i class="fa-solid fa-check-double"></i>
+                    <div class="text">CONGRATULATIONS</div>
+                </div>
+                <div class="close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="modal_body">
+                Your transaction has been completed!
+            </div>
+            <div class="modal_footer">
+                <a href="games.html" class="button">Yes please</a>
+            </div>
+        </div>
+    </div>
+
+    <script language="javascript" src="js/main.js"></script>
+    <script language="javascript" src="js/buy-it-active.js"></script>
+</body>
+</html>
