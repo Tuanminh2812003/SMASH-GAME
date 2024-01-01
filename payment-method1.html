@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/logo vuông.png" type="image/x-icon">
+    <title>Your game list</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mymodal.css">
+    <link rel="stylesheet" href="css/user.css">
+    <link rel="stylesheet" href="css/yourgame.css">
+    <link rel="stylesheet" href="css/funds.css">
+    <link rel="stylesheet" href="css/payment-method.css">
+</head>
+<body>
+    
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <div class="col-12">
+                <div class="inner-header">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo.png" alt="Logo Smash Game"></a>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <a href="games.html" style="margin-left: 0px;">
+                                <li>GAMES</li>
+                            </a>
+                            <a href="shop.html">
+                                <li>SHOP</li>
+                            </a>
+                            <a href="news.html">
+                                <li>NEWS</li>
+                            </a>
+                            <a href="about.html">
+                                <li>ABOUT</li>
+                            </a>
+                            <a href="user.html" class="open_modal">
+                                <li>USER</li>
+                            </a>
+                        </ul>
+                    </div>
+                    <form action="">
+                        <div class="find">
+                            <input type="text">
+                            <button><i class="fa-solid fa-magnifying-glass fa-flip-horizontal"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- USER -->
+
+    <div class="user">
+        <div class="container con1">
+            <div class="row">
+                <div class="col-12">
+                    <img src="images/PAYMENT METHOD.png" alt="">
+                    <div class="text">PAYMENT METHOD</div>
+                </div>
+            </div>
+        </div>
+        <div class="container payment_method">
+            <input type="radio" name="pay" id="visa" checked style="display: none;">
+            <input type="radio" name="pay" id="bank" style="display: none;">
+            <input type="radio" name="pay" id="master" style="display: none;">
+            <div class="row r_pay">
+                <div class="col-7 c1">
+                    <div class="gr1">
+                        <div class="box1">
+                            <div class="title">Visa card Information</div>
+                            <div class="d1">
+                                <label for="">Card number</label>
+                                <input type="text">
+                            </div>
+                            <div class="d2">
+                                <div class="cot1">
+                                    <label for="">Expiration date</label>
+                                    <div class="cot1-d">
+                                        <input type="text" style="width: 25%; margin-right: 5px;">
+                                        <input type="text" style="width: 73%;">
+                                    </div>
+                                </div>
+                                <div class="cot-2" style="margin-left: 5px;">
+                                    <label for="">Security code</label>
+                                    <input type="text" style="width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <div class="title">Billing Information</div>
+                            <div class="d1">
+                                <div class="cot1">
+                                    <label for="">First name</label>
+                                    <input type="text">
+                                </div>
+                                <div class="cot1">
+                                    <label for="">Last name</label>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="d1">
+                                <div class="cot1">
+                                    <label for="">Country</label>
+                                    <input type="text">
+                                </div>
+                                <div class="cot1">
+                                    <label for="">City</label>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            
+                            <div class="d2">
+                                <label for="">Zip or postal code</label>
+                                <input type="text">
+                            </div>
+                            <div class="d2">
+                                <label for="">Billing address, line 1</label>
+                                <input type="text">
+                            </div>
+                            <div class="d2">
+                                <label for="">Email</label>
+                                <input type="text">
+                            </div>
+                            <div class="d2">
+                                <label for="">Phone number</label>
+                                <input type="text">
+                            </div>
+                            <div class="d3">
+                                <input type="checkbox">
+                                <label for="">Save my payment information so checkout is easy next time</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gr2">
+                        <div class="box1">
+                            <div class="title">Credit Card Information</div>
+                            <div class="d1">
+                                <label for="">Local bank</label>
+                                <input type="text">
+                            </div>
+                            <div class="d1">
+                                <label for="">Card number</label>
+                                <input type="text">
+                            </div>
+                            <div class="d2">
+                                <div class="cot1">
+                                    <label for="">Expiration date</label>
+                                    <div class="cot1-d">
+                                        <input type="text" style="width: 25%; margin-right: 5px;">
+                                        <input type="text" style="width: 73%;">
+                                    </div>
+                                </div>
+                                <div class="cot-2" style="margin-left: 5px;">
+                                    <label for="">Security code</label>
+                                    <input type="text" style="width: 100%;">
+                                </div>
+                            </div>
+                            <div class="d1">
+                                <label for="">CVV/CVC</label>
+                                <input type="text">
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <div class="title">Billing Information</div>
+                            <div class="d1">
+                                <div class="cot1">
+                                    <label for="">First name</label>
+                                    <input type="text">
+                                </div>
+                                <div class="cot1">
+                                    <label for="">Last name</label>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="d1">
+                                <div class="cot1">
+                                    <label for="">Country</label>
+                                    <input type="text">
+                                </div>
+                                <div class="cot1">
+                                    <label for="">City</label>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            
+                            <div class="d2">
+                                <label for="">Zip or postal code</label>
+                                <input type="text">
+                            </div>
+                            <div class="d2">
+                                <label for="">Billing address, line 1</label>
+                                <input type="text">
+                            </div>
+                            <div class="d2">
+                                <label for="">Email</label>
+                                <input type="text">
+                            </div>
+                            <div class="d2">
+                                <label for="">Phone number</label>
+                                <input type="text">
+                            </div>
+                            <div class="d3">
+                                <input type="checkbox">
+                                <label for="">Save my payment information so checkout is easy next time</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gr3">
+                        <div class="box1">
+                            <div class="title">Mastercard Information</div>
+                            <div class="d1">
+                                <label for="">Card number</label>
+                                <input type="text">
+                            </div>
+                            <div class="d2">
+                                <div class="cot1">
+                                    <label for="">Expiration date</label>
+                                    <div class="cot1-d">
+                                        <input type="text" style="width: 25%; margin-right: 5px;">
+                                        <input type="text" style="width: 73%;">
+                                    </div>
+                                </div>
+                                <div class="cot-2" style="margin-left: 5px;">
+                                    <label for="">Security code</label>
+                                    <input type="text" style="width: 100%;">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="box2">
+                            <div class="title">Billing Information</div>
+                            <div class="d1">
+                                <div class="cot1">
+                                    <label for="">First name</label>
+                                    <input type="text">
+                                </div>
+                                <div class="cot1">
+                                    <label for="">Last name</label>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div class="d1">
+                                <div class="cot1">
+                                    <label for="">Country</label>
+                                    <input type="text">
+                                </div>
+                                <div class="cot1">
+                                    <label for="">City</label>
+                                    <input type="text">
+                                </div>
+                            </div>
+                            
+                            <div class="d2">
+                                <label for="">Zip or postal code</label>
+                                <input type="text">
+                            </div>
+                            <div class="d2">
+                                <label for="">Billing address, line 1</label>
+                                <input type="text">
+                            </div>
+                            <div class="d2">
+                                <label for="">Email</label>
+                                <input type="text">
+                            </div>
+                            <div class="d2">
+                                <label for="">Phone number</label>
+                                <input type="text">
+                            </div>
+                            <div class="d3">
+                                <input type="checkbox">
+                                <label for="">Save my payment information so checkout is easy next time</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-5 c2">
+                    <div class="box">
+                        <div class="title" style="font-size: 20px; font-weight: 400;">PAYMENT ME THODS</div>
+                        <div class="disc">Please select a payment method</div>
+                        <div class="icon">
+                            <label for="visa" class="visa active"><i class="fa-brands fa-cc-visa"></i></label>
+                            <label for="bank" class="bank"><i class="fa-regular fa-credit-card"></i></label>
+                            <label for="master" class="master"><i class="fa-brands fa-cc-mastercard"></i></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container but">
+        <div class="row">
+            <div class="col-12">
+                <a href="fund-review.html" class="button">Continue</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- END USER -->
+
+    <div class="line">
+        <div></div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <a href="index.html"><img src="images/logo.png" alt=""></a>
+                </div>
+                <div class="col-6 c">
+                    <div class="c1" style="width: 100%;">
+                        <div class="title">
+                            About us
+                        </div>
+                        <a href="about.html" class="tag">
+                            Zeux
+                        </a>
+                        <a href="about.html" class="tag">
+                            Portfolio
+                        </a>
+                        <a href="about.html" class="tag">
+                            Careers
+                        </a>
+                        <a href="about.html" class="tag">
+                            Contact us
+                        </a>
+                    </div>
+                    <div class="c1">
+                        <div class="title">
+                            Contact
+                        </div>
+                        <a href="about.html" class="tag">
+                            +908 89097 890
+                        </a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <a href="" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+    <script language="javascript" src="js/paymen-method.js"></script>
+</body>
+</html>

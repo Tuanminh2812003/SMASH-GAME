@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/user.css">
     <link rel="stylesheet" href="css/yourgame.css">
     <link rel="stylesheet" href="css/funds.css">
+    <link rel="stylesheet" href="css/payment-method.css">
 </head>
 <body>
     
@@ -62,65 +63,69 @@
         <div class="container con1">
             <div class="row">
                 <div class="col-12">
-                    <img src="images/FUND.png" alt="">
-                    <div class="text">FUND</div>
+                    <img src="images/REVIEW.png" alt="">
+                    <div class="text">REVIEW</div>
                 </div>
             </div>
         </div>
-        <div class="container con2">
-            <div class="row">
-                <div class="col-12">
-                    <div class="title">ADD FUND TO Ánh nè’s ACCOUNT</div>
-                    <div class="disc">Funds in your Wallet may be used for the purchase of any game or product on our site.
-                        You can of course use your Steam account to purchase our games on the store, but our exclusive 
-                        products can only be purchased on our site!</div>
-                    <div class="disc2">You’ll have a chance to review your order before it’s placed.</div>
-                </div>
-            </div>
-        </div>
-        <div class="container con3">
-            <div class="row">
+        <div class="container payment_method">
+            <div class="row r_pay">
                 <div class="col-7 c1">
-                    <div class="add1">
-                        <a href="payment-method1.html" class="button">
-                            <div class="text">Add funds</div>
-                            <i class="fa-regular fa-square-plus"></i>
-                        </a>
-                    </div>
-                    <div class="add2">
-                        <a href="payment-method1.html" class="button">
-                            <div class="text">Add funds</div>
-                            <i class="fa-regular fa-square-plus"></i>
-                        </a>
-                    </div>
-                    <div class="add3">
-                        <a href="payment-method1.html" class="button">
-                            <div class="text">Add funds</div>
-                            <i class="fa-regular fa-square-plus"></i>
-                        </a>
-                    </div>
-                    <div class="add4">
-                        <a href="payment-method1.html" class="button">
-                            <div class="text">Add funds</div>
-                            <i class="fa-regular fa-square-plus"></i>
-                        </a>
-                    </div>
-                    <div class="add5">
-                        <a href="payment-method1.html" class="button">
-                            <div class="text">Add funds</div>
-                            <i class="fa-regular fa-square-plus"></i>
-                        </a>
+                    <div class="gr4">
+                        <div class="box1">
+                            <div class="title">Billing Information</div>
+                            <div class="price">
+                                $50.00
+                            </div>
+                            <div class="disc">To be added to your account</div>
+                            <table>
+                                <thead>
+                                    <th>Subtota:</th>
+                                    <th>$50.00</th>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Total:</td>
+                                        <td>$50.00</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="pay">Payment method:</div>
+                            <div class="acc">Account: Ánh nè</div>
+                            <div class="fund_check">
+                                <input type="checkbox">
+                                <label for="">I agree to the terms of the Smash GamesGames Subscriber Agreement 
+                                    (last updated 26 Apr, 2023.)
+                                    All transactions are authorized through the Smart2Pay website.
+                                    Confirmation will be emailed to your address at gmail.com 
+                                    Click the button below to open a new web browser to initiate the 
+                                    transaction.</label>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="col-5 c2">
-                    <div class="acc">
-                        <div class="title">Your current balance</div>
-                        <div class="price">$25.99</div>
-                        <a href="games.html" class="button">Buy a game!</a>
-                        <div class="or">or</div>
-                        <a href="shop.html" class="button">Visit our store!</a>
+                    <div class="box">
+                        <div class="title">PURCHASING ON SITE</div>
+                        <div class="disc">Once you've completed this transaction, your 
+                            payment method will be debited you'll receive 
+                            an email message confirming receipt of your 
+                            purchase.</div>
+                        <div class="icon">
+                            <label for="visa" class="visa active"><i class="fa-brands fa-cc-visa"></i></label>
+                            <label for="bank" class="bank"><i class="fa-regular fa-credit-card"></i></label>
+                            <label for="master" class="master"><i class="fa-brands fa-cc-mastercard"></i></label>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container but">
+        <div class="row">
+            <div class="col-12">
+                <a href="#" class="button open_modal3">Continue</a>
             </div>
         </div>
     </div>
@@ -175,6 +180,27 @@
         </div>
     </footer>
     <!-- END FOOTER -->
-    <script language="javascript" src=""></script>
+    <div class="mymodal3 hide">
+        <div class="modal_inner">
+            <div class="modal_header">
+                <div class="text">
+                    <i class="fa-solid fa-check-double"></i>
+                    <div class="text">CONGRATULATIONS</div>
+                </div>
+                <div class="close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="modal_body">
+                Your transaction has been completed!
+            </div>
+            <div class="modal_footer">
+                <a href="user.html" class="button">Yes please</a>
+            </div>
+        </div>
+    </div>
+
+    <script language="javascript" src="js/main.js"></script>
+    <script language="javascript" src="js/buy-it-active.js"></script>
 </body>
 </html>

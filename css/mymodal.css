@@ -325,6 +325,164 @@
     background-color: #17793D;
 }
 
+/* modal3 */
+.mymodal4{
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 9999;
+}
+.mymodal4 .modal_inner{
+    display: flex;
+    width: 750px;
+    padding: 50px;
+    flex-direction: column;
+    align-items: start;
+    background-color: #211544;
+    border-radius: 15px;
+    position: relative;
+    top: 5%;
+    margin: auto;
+    animation: modalShow 0.5s linear;
+    overflow:auto;
+}
+.mymodal4 .modal_inner .modal_header{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    font-size: 30px;
+    align-items: center;
+}
+.mymodal4 .modal_inner .modal_header i{
+    color: white;
+}
+.mymodal4 .modal_body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.mymodal4 .modal_body .d1{
+    display: flex;
+    align-items: center;
+}
+.mymodal4 .modal_body .d1 .ava{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.mymodal4 .modal_body .d1 .ava img{
+    width: auto;
+    height: 150px;
+    margin-left: -120px;
+}
+.mymodal4 .modal_body .d1 .info{
+    margin-left: 20px;
+}
+.mymodal4 .modal_body .d1 .info .name{
+    font-size: 30px;
+    font-weight: 700;
+}
+.mymodal4 .modal_body .d1 .info .game{
+    color: var(--color-button-disc);
+}
+.mymodal4 .modal_body .d2{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.mymodal4 .modal_body .d2 .info{
+    width: 70%;
+    position: relative;
+}
+.mymodal4 .modal_body .d2 .info label{
+    position: absolute;
+    top: -30px;
+}
+.mymodal4 .modal_body .d2 .info .pri{
+    background-color: white;
+    border-radius: 100px;
+    width: 100%;
+    color: gray;
+    padding: 10px;
+}
+.mymodal4 .modal_body .d2 .button{
+    background-color: var(--color-button-disc);
+    color: black;
+    cursor: pointer;
+}
+.mymodal4 .modal_body .d2 .button i{
+    margin-left: 10px;
+}
+.mymodal4 .modal_body .d2 .button:hover{
+    background-color: white;
+    border: 2px solid #1D974C;
+    color: #1D974C;
+}
+
+/* modal4 */
+
+.modal_user{
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 9999;
+}
+.modal_user .modal_inner{
+    display: flex;
+    width: 500px;
+    padding: 50px;
+    flex-direction: column;
+    align-items: start;
+    background-color: #211544;
+    border-radius: 15px;
+    position: relative;
+    top: 15%;
+    margin: auto;
+    animation: modalShow 0.5s linear;
+    overflow:auto;
+}
+.modal_user .modal_inner .modal_header{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    font-size: 30px;
+    align-items: center;
+}
+.modal_user .modal_inner .modal_header i{
+    color: white;
+}
+.modal_user .modal_body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.modal_user .modal_body input{
+    border-radius: 100px;
+    padding: 5px 10px;
+}
+.modal_user .modal_footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.modal_user .modal_footer .button{
+    background-color: var(--color-button-disc);
+    color: black;
+}
+.modal_user .modal_footer .button:hover{
+    background-color: white;
+    border: 2px solid #1D974C;
+    color: #1D974C;
+}
 
 @keyframes modalShow{
     from{

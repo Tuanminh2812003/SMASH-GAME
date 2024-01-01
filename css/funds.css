@@ -1,0 +1,100 @@
+.user .con2 .title{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.user .con2 .disc{
+    margin-bottom: 15px;
+}
+.user .con3 .add1{
+    width: 100%;
+    height: 100px;
+    background-image: url(../images/fund/Fund\ 1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 50px;
+}
+.user .con3 .add2{
+    width: 100%;
+    height: 100px;
+    background-image: url(../images/fund/Fund\ 2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 50px;
+}
+.user .con3 .add3{
+    width: 100%;
+    height: 100px;
+    background-image: url(../images/fund/Fund\ 3.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 50px;
+}
+.user .con3 .add4{
+    width: 100%;
+    height: 100px;
+    background-image: url(../images/fund/Fund\ 4.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 50px;
+}
+.user .con3 .add5{
+    width: 100%;
+    height: 100px;
+    background-image: url(../images/fund/Fund\ 5.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 50px;
+}
+.user .con3 .c1 .button{
+    position: absolute;
+    right: 30px;
+    height: 40px;
+    font-size: 20px;
+    bottom: -10px;
+    background-color: var(--color-button-disc);
+}
+.user .con3 .c1 button i{
+    margin-left: 10px;
+}
+.user .con3 .c1 .button:hover{
+    background-color: white;
+    border: #357B3D 2px solid;
+    color: #357B3D;
+}
+.user .con3 .c2 .acc{
+    background-image: url(../images/fund/Group\ 217.png);
+    width: 100%;
+    height: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.user .con3 .c2 .title{
+    width: 100%;
+    text-align: end;
+    font-size: 20px;
+}
+.user .con3 .c2 .price{
+    font-size: 55px;
+    font-weight: 800;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.user .con3 .c2 .button{
+    background-color: var(--color-button-disc);
+    margin-top: 0px;
+}
+.user .con3 .c2 .button:hover{
+    background-color: white;
+    border: #357B3D 2px solid;
+    color: #357B3D;
+}

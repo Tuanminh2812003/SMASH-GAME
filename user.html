@@ -60,7 +60,7 @@
         <div class="container con1">
             <div class="row r1">
                 <div class="col-12">
-                    <a href="index.html" class="button">
+                    <a href="#" class="button open_modal3">
                         <div class="text" style="margin-right: 10px;">LOGOUT</div>
                         <div class="icon"><i class="fa-solid fa-arrow-right-from-bracket"></i></div>
                     </a>
@@ -89,7 +89,7 @@
                         <div class="info info2">Surplus: 500$ <a href="funds.html">Details</a></div>
                     </div>
                     <div class="col-5 c3">
-                        <div class="button">
+                        <div class="button open_modal4" style="cursor: pointer;">
                             <div class="text">FIX</div>
                             <div class="icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
                         </div>
@@ -192,11 +192,11 @@
                             Contact us
                         </a>
                     </div>
-                    <div class="c1">
+                    <div class="c1" style="margin-right: 20%;">
                         <div class="title">
                             Contact
                         </div>
-                        <a href="about.html" class="tag">
+                        <a href="about.html" class="tag" style="text-wrap: nowrap;">
                             +908 89097 890
                         </a>
                     </div>
@@ -211,6 +211,117 @@
         </div>
     </footer>
     <!-- END FOOTER -->
-    <script language="javascript" src=""></script>
+    <div class="mymodal3 hide">
+        <div class="modal_inner">
+            <div class="modal_header">
+                <div class="text">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <div class="text">LOG OUT</div>
+                </div>
+                <div class="close_modal3">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="modal_body">
+                Are you sure you want to log out?
+            </div>
+            <div class="modal_footer">
+                <a href="index.html" class="button yes">Log out</a>
+                <div class="button no" style="cursor: pointer;">No</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mymodal4 hide">
+        <div class="modal_inner">
+            <div class="modal_header">
+                <div class="close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="modal_body">
+                <div class="d1">
+                    <div class="ava"><img src="images/game/littlewood-1.png" alt=""></div>
+                    <div class="info">
+                        <div class="name">Anh ne</div>
+                        <div class="game">Game: 100 games</div>
+                    </div>
+                </div>
+                <div class="d2 open_modal5">
+                    <div class="info">
+                        <label for="">Full name</label>
+                        <div class="pri">
+                            Steven Stallion
+                        </div>
+                    </div>
+                    <div class="button" style="margin: 0px;">
+                        <div class="text">FIX</div>
+                        <div class="icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    </div>
+                </div>
+                <div class="d2 open_modal6">
+                    <div class="info">
+                        <label for="">Email address</label>
+                        <div class="pri">
+                            Example@gmail.com
+                        </div>
+                    </div>
+                    <div class="button" style="margin: 0px;">
+                        <div class="text">FIX</div>
+                        <div class="icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    </div>
+                </div>
+                <div class="d2 open_modal7">
+                    <div class="info">
+                        <label for="">Password </label>
+                        <div class="pri">
+                            *************
+                        </div>
+                    </div>
+                    <div class="button" style="margin: 0px;">
+                        <div class="text">FIX</div>
+                        <div class="icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    </div>
+                </div>
+                <div class="d2 open_modal8">
+                    <div class="info">
+                        <label for="">Phone</label>
+                        <div class="pri">
+                            123456789
+                        </div>
+                    </div>
+                    <div class="button" style="margin: 0px;">
+                        <div class="text">FIX</div>
+                        <div class="icon"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mymodal5 modal_user hide">
+        <div class="modal_inner">
+            <div class="modal_header">
+                <div class="close">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            </div>
+            <div class="modal_body">
+                <label for="">Full name</label>
+                <input type="text">
+            </div>
+            <div class="modal_footer">
+                <div class="button close_modal5" style="cursor: pointer;">
+                    <div class="text">Save</div>
+                    <div class="icon">
+                        <i class="fa-solid fa-screwdriver-wrench"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script language="javascript" src="js/user-modal.js"></script>
+    <script language="javascript" src="js/buy-it-active.js"></script>
 </body>
 </html>

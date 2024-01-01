@@ -1,0 +1,430 @@
+.active{
+    color: var(--color-button-disc);
+}
+
+.user .payment_method .r_pay .c1 .gr1{
+    display: none;
+}
+.user .payment_method .r_pay .c1 .gr2{
+    display: none;
+}
+.user .payment_method .r_pay .c1 .gr3{
+    display: none;
+}
+.user .payment_method #visa:checked ~ .r_pay > .c1 > .gr1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.user .payment_method #bank:checked ~ .r_pay > .c1 > .gr2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.user .payment_method #master:checked ~ .r_pay > .c1 > .gr3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.user .payment_method{
+    margin-top: 120px;
+}
+
+.user .payment_method .c1 input{
+    background-color: transparent;
+    color: white;
+    border-radius: 10px;
+    border: var(--color-button-disc) 2px solid;
+    outline: #1D974C;
+    margin-bottom: 20px;
+}
+
+.user .payment_method .c1 .gr1 .box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 100px;
+    background-color: rgba(91,88,140, 0.5);
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+}
+.user .payment_method .c1 .gr1 .box1 .title{
+    background-image: url(../images/fund/Rectangle\ 57.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+.user .payment_method .c1 .gr1 .box1 .d1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.user .payment_method .c1 .gr1 .box1 .d1 input{
+    width: 100%;
+}
+.user .payment_method .c1 .gr1 .box1 .d2{
+    display: flex;
+}
+.user .payment_method .c1 .gr1 .box1 .d2 .cot1{
+    width: 58%;
+}
+.user .payment_method .c1 .gr1 .box1 .d2 .cot1-d{
+    display: flex;
+}
+
+
+.user .payment_method .c1 .gr1 .box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 100px;
+    background-color: rgba(91,88,140, 0.5);
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 50px;
+}
+.user .payment_method .c1 .gr1 .box2 .title{
+    background-image: url(../images/fund/Rectangle\ 57.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+.user .payment_method .c1 .gr1 .box2 .d1{
+    width: 100%;
+    display: flex;
+}
+.user .payment_method .c1 .gr1 .box2 .d1 .cot1{
+    width: 48%;
+}
+.user .payment_method .c1 .gr1 .box2 .d2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.user .payment_method .c1 .gr1 .box2 .d3{
+    display: flex;
+}
+.user .payment_method .c1 .gr1 .box2 .d3 label{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+/* gr1 */
+
+.user .payment_method .c1 .gr3 .box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 100px;
+    background-color: rgba(91,88,140, 0.5);
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+}
+.user .payment_method .c1 .gr3 .box1 .title{
+    background-image: url(../images/fund/Rectangle\ 57.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+.user .payment_method .c1 .gr3 .box1 .d1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.user .payment_method .c1 .gr3 .box1 .d1 input{
+    width: 100%;
+}
+.user .payment_method .c1 .gr3 .box1 .d2{
+    display: flex;
+}
+.user .payment_method .c1 .gr3 .box1 .d2 .cot1{
+    width: 58%;
+}
+.user .payment_method .c1 .gr3 .box1 .d2 .cot1-d{
+    display: flex;
+}
+
+
+.user .payment_method .c1 .gr3 .box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 100px;
+    background-color: rgba(91,88,140, 0.5);
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 50px;
+}
+.user .payment_method .c1 .gr3 .box2 .title{
+    background-image: url(../images/fund/Rectangle\ 57.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+.user .payment_method .c1 .gr3 .box2 .d1{
+    width: 100%;
+    display: flex;
+}
+.user .payment_method .c1 .gr3 .box2 .d1 .cot1{
+    width: 48%;
+}
+.user .payment_method .c1 .gr3 .box2 .d2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.user .payment_method .c1 .gr3 .box2 .d3{
+    display: flex;
+}
+.user .payment_method .c1 .gr3 .box2 .d3 label{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+/* gr3 */
+
+.user .payment_method .c1 .gr2 .box1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 100px;
+    background-color: rgba(91,88,140, 0.5);
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+}
+.user .payment_method .c1 .gr2 .box1 .title{
+    background-image: url(../images/fund/Rectangle\ 57.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+.user .payment_method .c1 .gr2 .box1 .d1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.user .payment_method .c1 .gr2 .box1 .d1 input{
+    width: 100%;
+}
+.user .payment_method .c1 .gr2 .box1 .d2{
+    display: flex;
+}
+.user .payment_method .c1 .gr2 .box1 .d2 .cot1{
+    width: 58%;
+}
+.user .payment_method .c1 .gr2 .box1 .d2 .cot1-d{
+    display: flex;
+}
+
+
+.user .payment_method .c1 .gr2 .box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 100px;
+    background-color: rgba(91,88,140, 0.5);
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 50px;
+}
+.user .payment_method .c1 .gr2 .box2 .title{
+    background-image: url(../images/fund/Rectangle\ 57.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+
+.user .payment_method .c2 .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(91,88,140, 0.5);
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+    padding: 30px 20px;
+}
+.user .payment_method .c2 .box .title{
+    background-color: #EBD8B3;
+    width: 100%;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    position: absolute;
+    padding: 5px;
+    top: -20px;
+}
+.user .payment_method .c2 .box .icon{
+    font-size: 40px;
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.but .col-12{
+    display: flex;
+    justify-content: center;
+}
+.but .button{
+    background-color: var(--color-button-disc);
+    transition: all 0.5s;
+}
+.but .button:hover{
+    background-color: white;
+    color: #1D974C;
+    border: #1D974C 2px solid;
+}
+
+.user .payment_method .c1 .gr4 .box1{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 60px 100px;
+    background-color: rgba(91,88,140, 0.5);
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+}
+.user .payment_method .c1 .gr4 .box1 .title{
+    background-image: url(../images/fund/Rectangle\ 57.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
+.user .payment_method .c1 .gr4 .box1 .price{
+    font-size: 65px;
+    font-weight: 700;
+}
+.user .payment_method .c1 .gr4 .box1 table{
+    margin-top: 40px;
+    width: 100%;
+}
+.user .payment_method .c1 .gr4 .box1 table th{
+    padding-bottom: 10px;
+    border-bottom: 2px solid white;
+}
+.user .payment_method .c1 .gr4 .box1 table td{
+    padding-top: 10px;
+    font-weight: 700;
+}
+.user .payment_method .c1 .gr4 .box1 .pay{
+    margin-top: 40px;
+    font-weight: 700;
+}
+.user .payment_method .c1 .gr4 .box1 .acc{
+    margin-top: 20px;
+    font-weight: 700;
+}
+.user .payment_method .c1 .gr4 .box1 .fund_check{
+    display: flex;
+    align-items: start;
+    margin-top: 40px;
+}
+.user .payment_method .c1 .gr4 .box1 .fund_check label{
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+
+.user .payment_method .c1 .gr4 .box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 100px;
+    background-color: rgba(91,88,140, 0.5);
+    width: 100%;
+    border-radius: 30px;
+    position: relative;
+    margin-top: 50px;
+}
+.user .payment_method .c1 .gr4 .box2 .title{
+    background-image: url(../images/fund/Rectangle\ 57.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 60px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -20px;
+    left: 0;
+}
