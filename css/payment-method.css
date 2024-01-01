@@ -294,6 +294,25 @@
     top: -20px;
     left: 0;
 }
+.user .payment_method .c1 .gr2 .box2 .d1{
+    width: 100%;
+    display: flex;
+}
+.user .payment_method .c1 .gr2 .box2 .d1 .cot1{
+    width: 48%;
+}
+.user .payment_method .c1 .gr2 .box2 .d2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.user .payment_method .c1 .gr2 .box2 .d3{
+    display: flex;
+}
+.user .payment_method .c1 .gr2 .box2 .d3 label{
+    margin-top: 8px;
+    margin-left: 10px;
+}
 
 .user .payment_method .c2 .box{
     display: flex;
