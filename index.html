@@ -11,8 +11,33 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/mymodal.css">
+    <link rel="stylesheet" href="css/respond_all.css">
+    <link rel="stylesheet" href="css/home-respond.css">
+    <link rel="stylesheet" href="css/respond_all.css">
 </head>
 <body>
+
+    <div class="modal_about">
+        <div class="modal_inner">
+            <div class="modal_body">
+                <div class="logo">
+                    <img src="images/pop up/logo toois mauf@4x 2 1.png" alt="">
+                </div>
+                <div class="text">Product created by:</div>
+                <div class="name">Đặng Ngọc Ánh – B21DCPT055</div>
+                <div class="name">Phạm Tiến Dũng – B21DCPT003</div>
+                <div class="name">Đỗ Trung Hiếu – B21DCPT011</div>
+                <div class="name">Đỗ Tuấn Minh – B21DCPT023</div>
+                <div class="text">Thank you</div>
+                <div class="name">Lecturers: Nguyễn Thị Thanh Tâm</div>
+                <div class="text">Our website is</div>
+                <div class="name" style="font-size: 35px; font-weight: 600;">RESPONSIVE</div>
+                <div class="disc">*However, there may be some problems, please ignore them</div>
+            </div>
+        </div>
+    </div>
+
+
     <div class="mymodal hide">
         <div class="modal_inner">
             <div class="modal_body">
@@ -127,6 +152,29 @@
                             <button><i class="fa-solid fa-magnifying-glass fa-flip-horizontal"></i></button>
                         </div>
                     </form>
+                    <label for="bar">
+                        <div class="bar"><i class="fa-solid fa-bars"></i></div>
+                    </label>
+                    <input type="checkbox" id="bar">
+                    <div class="menu-bar">
+                        <ul>
+                            <a href="games.html" style="margin-left: 0px;">
+                                <li>GAMES</li>
+                            </a>
+                            <a href="shop.html">
+                                <li>SHOP</li>
+                            </a>
+                            <a href="news.html">
+                                <li>NEWS</li>
+                            </a>
+                            <a href="about.html">
+                                <li>ABOUT</li>
+                            </a>
+                            <a href="#" class="open_modal">
+                                <li>LOGIN</li>
+                            </a>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -152,11 +200,11 @@
     <div class="main">
         <div class="container">
             <div class="row">
-                <div class="col-5">
+                <div class="col-lg-5 col-12 c1">
                     <div class="title">GENERAL INTRODUCTION ABOUT SMASH GAME</div>
                     <div class="disc">Welcome to Smash Games, an indie game company fueled by passion and creativity. At the heart of our pixelated universe is Sean Young, the sole developer dedicated to crafting unique nd engaging indie pixel art games. In this realm of pixels and imagination, Smash Games strives to deliver memorable gaming experiences that transcend boundaries. Join us on a journey where every pixel tells a story, and where the indie spirit thrives in every line of code. Get ready to embark on an adventure that blends nostalgia with innovation, brought to you by the hands of one – Sean Young and the world of Smash Games. Let the pixels collide, and let the games begin!</div>
                 </div>
-                <div class="col-7">
+                <div class="col-lg-7 col-12 c2">
                     <div class="video"></div> 
                     <!-- Còn thiếu video -->
                 </div>
@@ -175,7 +223,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row" style="margin-top: -20px; margin-bottom: 120px;">
+            <div class="row r1" style="margin-top: -20px; margin-bottom: 120px;">
                 <div class="col-6">
                     <div class="pic-1"></div>
                 </div>
@@ -237,10 +285,10 @@
                 </div>
             </div>
             <div class="row" style="margin-top: -20px; margin-bottom: 120px;">
-                <div class="col-6">
+                <div class="col-lg-6 col-4">
                     <div class="pic-1"></div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-8">
                     <div class="title">Littlewood Dev Shares Exclusive Details</div>
                     <div class="disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto at odio blanditiis perferendis quod adipisci mollitia assumenda dolore. Nam est autem quos deserunt sit doloribus earum. Vitae fugiat maiores neque?</div>
                     <a href="news-1.html" class="button">
@@ -248,13 +296,14 @@
                         <div class="mui-ten"><i class="fa-solid fa-arrow-right"></i></div>
                     </a>
                 </div>
+                
             </div>
             <div class="row r2" style="margin-bottom: 120px;">
-                <div class="col-6">
+                <div class="col-lg-6 col-4">
                     <div class="pic-2"></div>
                 </div>
-                <div class="col-6 c2">
-                    <div class="title">Sean Young’s Interview – Creator of Magicite</div>
+                <div class="col-lg-6 c2 col-8">
+                    <div class="title" style="text-align: end;">Sean Young’s Interview – Creator of Magicite</div>
                     <div class="disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto at odio blanditiis perferendis quod adipisci mollitia assumenda dolore. Nam est autem quos deserunt sit doloribus earum. Vitae fugiat maiores neque?</div>
                     <a href="news-2.html" class="button">
                         <div class="text-button">EXPLORE</div>
@@ -263,10 +312,10 @@
                 </div>
             </div>
             <div class="row" style="margin-bottom: 0px;">
-                <div class="col-6">
+                <div class="col-lg-6 col-4">
                     <div class="pic-3"></div>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-8">
                     <div class="title">The Making Of Littlewood - A Game Made In 3 Years By A Solo Developer</div>
                     <div class="disc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto at odio blanditiis perferendis quod adipisci mollitia assumenda dolore. Nam est autem quos deserunt sit doloribus earum. Vitae fugiat maiores neque?</div>
                     <a href="news-3.html" class="button">
@@ -291,7 +340,7 @@
     <div class="section-find">
         <div class="container">
             <div class="row">
-                <div class="col-6">
+                <div class="col-lg-6 col-12 c1">
                     <div class="title">
                         FIND OUT MORE ABOUT US!
                     </div>
@@ -303,7 +352,7 @@
                         <i class="fa-solid fa-chevron-up fa-flip-vertical"></i>
                     </a>
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-12 c2">
                     <div class="pic-1">
                         <img src="images/index/Group 209.png" alt="">
                     </div>
@@ -317,10 +366,10 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-4">
+                <div class="col-lg-4">
                     <a href="index.html"><img src="images/logo.png" alt=""></a>
                 </div>
-                <div class="col-6 c">
+                <div class="col-lg-6 c">
                     <div class="c1" style="width: 100%;">
                         <div class="title">
                             About us
@@ -347,7 +396,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-lg-2 ci">
                     <a href="" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
                     <a href="" class="icon"><i class="fa-brands fa-instagram"></i></a>
                     <a href="" class="icon"><i class="fa-brands fa-twitter"></i></a>
@@ -357,7 +406,10 @@
         </div>
     </footer>
     <!-- END FOOTER -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <script language="javascript" src="js/main.js"></script>
     <script language="javascript" src="js/background.js"></script>
+    <script language="javascript" src="js/about.js"></script>
 </body>
 </html>

@@ -484,6 +484,51 @@
     color: #1D974C;
 }
 
+/* modal_about */
+.modal_about{
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 9999;
+}
+.modal_about .modal_inner{
+    display: flex;
+    width: 590px;
+    padding:  50px 80px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #B4E37A;
+    border-radius: 30px;
+    position: relative;
+    top: 10%;
+    margin: auto;
+    animation: modalShow 1s linear;
+}
+.modal_about .modal_inner .modal_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.modal_about .modal_inner .modal_body .text{
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 6px;
+}
+.modal_about .modal_inner .modal_body .name{
+    color: var(--color-back);
+    font-size: 20px;
+}
+.modal_about .modal_inner .modal_body .disc{
+    font-size: 12px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
 @keyframes modalShow{
     from{
         top: -200px;

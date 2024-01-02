@@ -206,7 +206,6 @@ header .inner-header .menu ul a:hover > li::after{
     margin-top: 20px;
 }
 .main .video{
-    background-color: aqua;
     background-image: url("../images/Sean_Young_Avatar.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -464,11 +463,11 @@ footer .c .c1 .tag{
     margin-top: 20px;
     text-wrap: nowrap;
 }
-footer .col-2{
+footer .ci{
     display: flex;
     align-items: end;
 }
-footer .col-2 .icon{
+footer .ci .icon{
     background-color: white;
     width: 30px;
     height: 30px;

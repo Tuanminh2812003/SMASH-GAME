@@ -1,0 +1,55 @@
+header .bar{
+    display: none;
+    font-size: 30px;
+}
+
+#bar{
+    display: none;
+}
+
+.menu-bar{
+    display: none;
+}
+.menu-bar ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.menu-bar ul a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu-bar ul a li{
+    border: 1px solid #EBD8B3;
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+}
+.menu-bar ul a li:hover{
+    background-color: white;
+    border: 1px solid #1D974C;
+    color: #1D974C;
+}
+
+
+@media (max-width: 991.98px) {
+    header .bar{
+        display: flex;
+    }
+    header .inner-header .menu{
+        display: none;
+    }
+    footer .c{
+        margin-top: 20px;
+    }
+    #bar:checked ~ .menu-bar{
+        background-color: var(--color-button-disc);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 0px;
+        bottom: -250px;
+    }
+}
