@@ -184,20 +184,6 @@ header .inner-header .menu ul a:hover{
 header .inner-header .menu ul a:hover > li::after{
     transform: scale3d(1,1,1);
 }
-header .inner-header .bar{
-    display: none;
-}
-
-@media (max-width: 991.98px) {
-    header .inner-header .bar{
-        display: flex;
-        font-size: 30px;
-    }
-    header .inner-header .menu{
-        display: none;
-    }
-}
-    
 /* END HEADER */
 
 /* MAIN */
@@ -219,12 +205,8 @@ header .inner-header .bar{
     font-weight: 400;
     margin-top: 20px;
 }
-.main .c2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.video{
+.main .video{
+    background-color: aqua;
     background-image: url("../images/Sean_Young_Avatar.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -233,21 +215,6 @@ header .inner-header .bar{
     height: 350px;
     margin-left: 20%;
 }
-@media (max-width: 767.98px) {
-    .main{
-        margin-top: 40px;
-    }
-    .main .title{
-        text-align: center;
-    }
-    .main .disc{
-        text-align: center;
-    }
-    .main .video{
-        margin: auto;
-    }
-}
-
 /* END MAIN */
 
 /* SECTION-GAMES */
@@ -265,9 +232,6 @@ header .inner-header .bar{
 }
 .section-games .disc{
     font-weight: 300;
-}
-.section-games .row{
-    display: flex;
 }
 .section-games .r2{
     flex-direction: row-reverse;
@@ -337,15 +301,6 @@ header .inner-header .bar{
     color: #17793D;
     background-color: white;
 }
-@media (max-width: 767.98px) {
-    .section-games .disc{
-        display: none;
-    }
-    .section-games .pic-2{
-        margin-left: 90px;
-    }
-}
-    
 /* END SECTION-GAMES */
 
 /* SECTION-NEWS */
@@ -509,11 +464,11 @@ footer .c .c1 .tag{
     margin-top: 20px;
     text-wrap: nowrap;
 }
-footer .ci{
+footer .col-2{
     display: flex;
     align-items: end;
 }
-footer .ci .icon{
+footer .col-2 .icon{
     background-color: white;
     width: 30px;
     height: 30px;
