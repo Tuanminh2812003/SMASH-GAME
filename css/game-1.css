@@ -118,6 +118,7 @@
     margin-left: 10px;
 }
 
+
 .game-1 .section-games .pic-1{
     background-image: url("../images/game/game-1/1.png");
     background-size: 100%;
@@ -334,6 +335,60 @@
 .game-2 .main .r2 .button:hover > .text-button{
     margin-right: 0px;
 }
+
+@media (max-width: 1199.98px) {
+    .main .container .r2{
+        display: none;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .main .container .r1 .text{
+        position: absolute;
+        right: 0px;
+    }
+    .main .container .r1 .text .disc{
+        font-size: 13px;
+        margin-top: 0px;
+        line-height: 20px;
+    }
+    .main .container .r1 .text .disc-2{
+        font-size: 13px;
+        margin-top: 0px;
+        line-height: 20px;
+    }
+    .section-games{
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .img-game{
+        height: 100px;
+        background-size: cover;
+        background-position: center;
+    }
+    .main{
+        margin-top: 0px;
+    }
+    .main .container .r1 .text{
+        right: -30px;
+    }
+    .main .container .r1 .text .title{
+        font-size: 20px;
+    }
+    .section-games .container .c2 .title{
+        font-size: 25px;
+    }
+    .section-games .container .c2 .disc{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+}
+
 
 .game-2 .section-games .pic-1{
     background-image: url("../images/game/game-2/lw\ screenshot.jpg");
